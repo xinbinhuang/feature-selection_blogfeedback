@@ -8,10 +8,12 @@ This project performs a feature and model selection on the UCI machine learning 
 
 Detailed documentation and data source are available here [UCL - BlogFeedback Data Set ](https://archive.ics.uci.edu/ml/datasets/BlogFeedback)
 
-The original dataset includes one `train` set, `blogData_train.csv` and multiple small `test` set. I combined all the test set into one test set called `test.csv`. All analysis are based on the `blogData_train.csv` and `test.csv`. Also the `data-attribute-description.md` describe the names of the features which correspond to the columns of the dataset.
+The dataset include 281 variables (280 features and 1 target variable). The `data-attribute-description.md` describe the names of the features which correspond to the columns of the dataset.
+
+The original dataset includes one `train` set, `blogData_train.csv` and multiple small `test` set. I combined all the test set into one test set called `test.csv`. All analysis are based on the `blogData_train.csv` and `test.csv`.
 
 ## Procedure of analysis
-To reproduce the whole analysis, you need to clone the repo into your local machine. 
+To reproduce the whole analysis, you need to clone the repo into your local machine.
 
 Then open the jupyter notebook in `src/analysis-script.ipynb`, and `run all` from top to bottom.
 
